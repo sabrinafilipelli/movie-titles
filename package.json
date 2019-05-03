@@ -1,0 +1,8 @@
+{
+  "name": "movie-titles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sabrinagear/movie-titles.git",
+  "author": "SabrinaGear <sabrinagear.ft@gmail.com>",
+  "license": "MIT"
+}
