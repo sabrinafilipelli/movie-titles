@@ -1,37 +1,93 @@
 body {
   margin: 0;
+  max-height: 100vh;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1 {
+  font-family: "Black Ops One", cursive;
+  font-size: 3rem;
+  font-weight: none;
+  margin-bottom: 0;
+}
+h3 {
+  font-family: "Forum", cursive;
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background-image: url("./spidey.jpg");
   color: white;
-  background-color: #cccccc;
+  background-color: black;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.a {
+  margin-left: 5rem;
+  margin-top: 6rem;
+}
 .list {
-  padding: 2rem 4rem;
   font-size: 1.5rem;
+  color: white;
+  font-family: "Forum", cursive;
+  margin: 1rem 0;
+}
+.search {
+  font-size: 1.5rem;
+  font-family: "Forum", cursive;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgb(54, 54, 63);
+  color: white;
+  border: none;
+  width: 20rem;
+  height: 2rem;
+  margin: 1rem 0;
+}
+.main-btn {
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  height: 2rem;
+  width: 12rem;
+  background: rgb(54, 54, 63);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: none;
 }
 
-.main-btn {
-  padding: 1rem;
-  margin: 1rem 4rem;
-  font-size: 1rem;
-  border-radius: 1rem;
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+
+  text-align: center;
+  align-items: flex-start;
+}
+
+.code {
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
   cursor: pointer;
+  height: 2rem;
+  text-align: left;
+  width: 20rem;
+  background: rgba(255, 255, 255, 0);
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+  border: none;
+  margin-left: 5rem;
+  float: bottom;
+}
+
+footer a {
+  align-self: baseline;
+  color: red;
 }
